@@ -1,0 +1,17 @@
+{
+  "name": "charlesgpt-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.2",
+    "gtts": "^0.2.1",
+    "node-telegram-bot-api": "^0.67.0"
+  }
+}

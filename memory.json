@@ -1,0 +1,12 @@
+{
+  "6172887013": [
+    {
+      "role": "user",
+      "content": "What's your name"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! I'm CharlesGPT🤖 Ai. How can I assist you today?"
+    }
+  ]
+}
