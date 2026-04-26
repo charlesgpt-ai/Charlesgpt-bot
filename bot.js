@@ -91,7 +91,7 @@ bot.on('message', async (msg) => {
         memory[chatId].push({ role: "assistant", content: reply });
 
         // Save memory to file
-        fs.writeFileSync(MEMORY_FILE, JSON.stringify(memory, null, 2));
+openai/gpt-4o-mini",openai/gpt-4o-mini",        fs.writeFileSync(MEMORY_FILE, JSON.stringify(memory, null, 2));
 
         // ✅ Send text reply
         await bot.sendMessage(chatId, reply);
